@@ -28,7 +28,7 @@ alx-airbnb-database/
 - **Pricing System**: Flexible pricing with historical tracking
 - **Host Management**: Multiple properties per host
 
-### 👥 User System
+### User System
 - **Role-Based Access**: Guests, hosts, and administrators
 - **User Profiles**: Complete user information and preferences
 - **Authentication**: Secure password storage and user management
