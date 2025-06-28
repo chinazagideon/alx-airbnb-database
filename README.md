@@ -22,7 +22,7 @@ alx-airbnb-database/
 
 ## Core Features
 
-### 🏠 Property Management
+### Property Management
 - **Diverse Property Types**: Apartments, houses, cabins, villas, lofts
 - **Location-Based Search**: Multiple location categories and districts
 - **Pricing System**: Flexible pricing with historical tracking
@@ -33,23 +33,23 @@ alx-airbnb-database/
 - **User Profiles**: Complete user information and preferences
 - **Authentication**: Secure password storage and user management
 
-### 📅 Booking System
+### Booking System
 - **Reservation Management**: Complete booking lifecycle
 - **Status Tracking**: Pending, confirmed, and canceled bookings
 - **Date Validation**: Proper start/end date constraints
 - **Price Locking**: Historical price tracking for bookings
 
-### 💳 Payment Processing
+### Payment Processing
 - **Multiple Payment Methods**: Credit card, PayPal, Stripe
 - **Payment Tracking**: Complete payment history and records
 - **Amount Calculation**: Accurate payment amounts based on duration
 
-### ⭐ Review System
+### Review System
 - **Rating System**: 1-5 star ratings with detailed comments
 - **Property Reviews**: Guest feedback on properties and experiences
 - **Host Feedback**: Reviews for host responsiveness and service
 
-### 💬 Communication System
+### Communication System
 - **User Messaging**: Direct communication between users
 - **Host-Guest Communication**: Booking inquiries and support
 - **Community Building**: Guest-to-guest and host-to-host interactions
