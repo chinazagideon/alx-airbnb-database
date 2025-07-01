@@ -122,7 +122,7 @@ AND price_per_night BETWEEN 100 AND 300
 ORDER BY price_per_night ASC;
 
 -- 6. Booking status analysis (admin/reporting query)
-EXPLAIN (ANALYZE, BUFFERS) 
+EXPLAIN ANALYZE 
 SELECT status, COUNT(*) as booking_count, 
        AVG(DATEDIFF(end_date, start_date)) as avg_duration
 FROM bookings 
@@ -131,7 +131,7 @@ GROUP BY status
 ORDER BY booking_count DESC;
 
 -- 7. User activity analysis (analytics query)
-EXPLAIN (ANALYZE, BUFFERS) 
+EXPLAIN ANALYZE 
 SELECT u.user_id, u.first_name, u.last_name, u.role,
        COUNT(b.id) as total_bookings,
        COUNT(CASE WHEN b.status = 'confirmed' THEN 1 END) as confirmed_bookings
